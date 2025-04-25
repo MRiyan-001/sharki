@@ -11,7 +11,7 @@ const Card = (props) => {
       </div>
       {/* ------------------------------- */}
 
-      <img src={props.image} alt="" />
+      <img src={props.image} alt="Product" />
       <h2 className="text-[0.9rem] font-semibold">{props.name}</h2>
       <p className="font-mono text-[0.8rem]">{props.price}</p>
     </div>
